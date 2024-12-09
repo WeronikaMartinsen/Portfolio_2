@@ -3,6 +3,7 @@ import MainLayout from "../layout/MainLayout";
 import TechIcons from "../TechIcons";
 import HeroSection from "../HeroSection";
 import ProjectList from "../ProjectList";
+import AboutSection from "../AboutSection";
 
 const Home: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Home: React.FC = () => {
         <HeroSection />
         <TechIcons />
         <ProjectList />
+        <AboutSection />
       </MainLayout>
     </>
   );
