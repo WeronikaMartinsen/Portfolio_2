@@ -1,24 +1,36 @@
 import React from "react";
 import ProjectCard from "../ProjectCard";
+import project1 from "../images/project1.png";
+import project2 from "../images/project2.png";
+import project3 from "../images/project3.png";
 
 const projects = [
   {
-    image: "https://via.placeholder.com/600", // Replace with real project image
-    title: "Project One",
-    description: "A brief description of the project.",
-    technologies: ["React", "Tailwind CSS", "API"],
-    githubLink: "https://github.com/example/project-one",
-    liveLink: "https://example.com/project-one",
+    image: project1,
+    title: "Auction House",
+    description:
+      "This project is the frontend application for an auction site where users can add items to be bid on and bid on items other users have put up for auction. The frontend interacts with an existing API to manage all functionality related to users, listings, and bids.",
+    technologies: ["JavaScript", "Bootstrap", "API"],
+    githubLink: "https://github.com/WeronikaMartinsen/SP2-Auction-House",
+    liveLink: "https://bidme-auctionhouse.netlify.app/",
   },
   {
-    image: "https://via.placeholder.com/600", // Replace with real project image
-    title: "Project Two",
+    image: project2,
+    title: "Fashion Store",
     description: "Another project description goes here.",
-    technologies: ["JavaScript", "Bootstrap", "Node.js"],
-    githubLink: "https://github.com/example/project-two",
-    liveLink: "https://example.com/project-two",
+    technologies: ["React", "JavaScript", "Tailwind", "API"],
+    githubLink: "https://github.com/WeronikaMartinsen/eCom",
+    liveLink: "https://martinsen-react-app.netlify.app/",
   },
-  // Add more projects as needed
+  {
+    image: project3,
+    title: "Holidaze",
+    description:
+      "A modern front-end application for Holidaze, an accommodation booking platform. This app enables customers to explore and book accommodations, while venue managers can manage their listings and bookings. Built with React, TypeScript, and Tailwind CSS.",
+    technologies: ["React", "TypeScript", "Tailwind", "API"],
+    githubLink: "https://github.com/WeronikaMartinsen/projectExam2",
+    liveLink: "https://holidaze-martinsen.netlify.app/",
+  },
 ];
 
 const ProjectList: React.FC = () => {

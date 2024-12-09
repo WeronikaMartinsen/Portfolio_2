@@ -53,7 +53,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             href={githubLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 m-2 text-sm bg-primary text-black rounded-lg hover:bg-accent transition-all"
+            className="px-4 py-2 m-2 text-sm bg-accent text-black rounded-lg hover:bg-accent transition-all hover:shadow-lg"
           >
             GitHub Repo
           </a>
@@ -61,7 +61,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             href={liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 m-2 text-sm border border-accent text-white rounded-lg hover:bg-accent hover:text-black transition-all"
+            className="px-4 py-2 m-2 text-sm border border-accent text-white rounded-lg hover:bg-accent hover:text-black transition-all hover:shadow-lg"
           >
             Live Project
           </a>

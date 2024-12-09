@@ -9,8 +9,8 @@ const Home: React.FC = () => {
     <>
       <MainLayout>
         <HeroSection />
-        <ProjectList />
         <TechIcons />
+        <ProjectList />
       </MainLayout>
     </>
   );

@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         <ul className="flex justify-between items-center">
           <li className="mr-auto">
             <a href="/" className=" hover:underline">
-              Home
+              Weronika Martinsen
             </a>
           </li>
           <div className="flex space-x-4">
