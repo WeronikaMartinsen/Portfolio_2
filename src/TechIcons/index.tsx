@@ -2,62 +2,34 @@ import { FaReact, FaGitAlt, FaHtml5, FaCss3Alt, FaJs } from "react-icons/fa";
 import { SiTailwindcss, SiBootstrap, SiFigma, SiBlazor } from "react-icons/si";
 
 const TechIcons = () => (
-  <div className="relative overflow-hidden w-full h-16">
-    <div className="flex gap-8 animate-marquee text-tertiary w-max">
+  <div className="relative overflow-hidden w-full h-20">
+    <div className="flex gap-12 animate-marquee text-white w-max">
       <div className="flex flex-col items-center">
-        <FaReact className="w-8 h-8" />
+        <FaReact className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <FaJs className="w-8 h-8" />
+        <FaJs className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <SiTailwindcss className="w-8 h-8" />
+        <SiTailwindcss className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <SiBootstrap className="w-8 h-8" />
+        <SiBootstrap className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <FaGitAlt className="w-8 h-8" />
+        <FaGitAlt className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <SiFigma className="w-8 h-8" />
+        <SiFigma className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <FaHtml5 className="w-8 h-8" />
+        <FaHtml5 className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <FaCss3Alt className="w-8 h-8" />
+        <FaCss3Alt className="w-12 h-12" />
       </div>
       <div className="flex flex-col items-center">
-        <SiBlazor className="w-8 h-8" />
-      </div>
-      {/* Duplicate icons for seamless scrolling */}
-      <div className="flex flex-col items-center">
-        <FaReact className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <FaJs className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <SiTailwindcss className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <SiBootstrap className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <FaGitAlt className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <SiFigma className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <FaHtml5 className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <FaCss3Alt className="w-8 h-8" />
-      </div>
-      <div className="flex flex-col items-center">
-        <SiBlazor className="w-8 h-8" />
+        <SiBlazor className="w-12 h-12" />
       </div>
     </div>
   </div>

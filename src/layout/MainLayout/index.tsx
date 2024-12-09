@@ -9,7 +9,7 @@ interface MainLayoutProps {
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
-    <div className="app-container bg-primary max-w-5xl">
+    <div className="app-container bg-gradient-to-r from-blue-900 via-gray-900 to-black max-w-5xl">
       <Header />
       <main className="content max-w-5xl">{children}</main>
       <Footer />

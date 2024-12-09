@@ -1,9 +1,8 @@
 import React from "react";
-import TechIcons from "../TechIcons";
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="relative h-screen bg-gradient-to-r from-blue-900 via-gray-900 to-black text-white">
+    <div className="relative h-screen text-white">
       {/* Background Animation */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="animate-fadeIn">
@@ -32,9 +31,7 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Skills Section */}
-      <div className="absolute bottom-8 w-full flex justify-center">
-        <TechIcons />
-      </div>
+      <div className="absolute bottom-8 w-full flex justify-center"></div>
     </div>
   );
 };
