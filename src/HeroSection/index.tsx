@@ -1,10 +1,11 @@
 import React from "react";
+import { FaDownload } from "react-icons/fa";
 import { Particles } from "react-tsparticles";
 import imageOfMe from "../images/imageOfMe.png";
 
 const HeroSection: React.FC = () => {
   return (
-    <div className="relative h-screen text-white">
+    <div className="relative mt-10 mb-10 pt-10 pb-10 text-white">
       {/* Background Animation */}
       <div className="absolute inset-0">
         <Particles
@@ -35,13 +36,20 @@ const HeroSection: React.FC = () => {
           experiences.
         </p>
         <div className="mt-6">
-          <button className="relative px-6 py-3 mx-2 bg-accent text-black rounded-lg overflow-hidden group transform transition-all duration-300 hover:bg-primary hover:text-white hover:scale-105 hover:shadow-2xl">
+          <a
+            href="../images/Weronika_Martinsen_CV.pdf"
+            download="Weronika_Martinsen_CV.pdf"
+            className="relative px-6 py-3 mx-2 bg-accent text-black rounded-lg overflow-hidden group transform transition-all duration-300 hover:bg-primary hover:text-white hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-2"
+          >
             {/* Button Background Transition */}
             <span className="absolute inset-0 w-full h-full bg-accent transform transition-all duration-300 group-hover:bg-primary"></span>
 
-            {/* Button Text */}
-            <span className="relative z-10">View My Work</span>
-          </button>
+            {/* Button Content */}
+            <span className="relative z-10 flex items-center gap-2">
+              Download CV
+              <FaDownload className="w-4 h-4" />
+            </span>
+          </a>
 
           <button className="px-6 py-3 mx-2 border border-accent text-white rounded-lg hover:bg-accent hover:text-black transition-all">
             Get in Touch
