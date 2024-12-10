@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# 🌟 Weronika Martinsen Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio! 🚀 I'm a **Frontend Developer** passionate about creating modern, responsive, and user-friendly web applications. This portfolio showcases my skills, projects, and journey in web development.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 **[Visit My Portfolio](https://portfolio-martinsen.netlify.app/)**
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Languages:** HTML5, CSS3, JavaScript (ES6+)
+- **Frameworks & Libraries:** ReactJS, TypeScript, TailwindCSS
+- **Tools:** Git, GitHub, Figma, Adobe XD
+- **Other Skills:** Responsive Design, REST APIs, UI/UX Design
 
-- Configure the top-level `parserOptions` property like this:
+## 📂 Projects
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Here are some of the projects featured on my portfolio:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 1. [Portfolio Website](https://weronikamartinsen.netlify.app/)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Custom-designed portfolio showcasing my work.
+- Built with **ReactJS** and **TailwindCSS** for a clean, modern interface.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 2. [GitHub Repository](https://github.com/weronikamartinsen)
+
+- A collection of my frontend projects, including responsive layouts, interactive UI, and more.
+
+## 📈 Highlights
+
+- 🚀 Developed 10+ fully responsive web applications.
+- 📚 Proficient in **React**, **JavaScript**, and **TailwindCSS**.
+- ✨ Skilled in designing modern UI/UX for diverse audiences.
+- 🌐 Active on GitHub with a portfolio of practical projects.
+
+## 🖥️ Screenshots
+
+![Portfolio Screenshot](https://via.placeholder.com/800x400.png?text=Add+Your+Portfolio+Screenshot+Here)
+
+## 🤝 Contact Me
+
+Looking to collaborate or hire? Feel free to reach out!  
+📧 Email: [weronika.martinsen@gmail.com](mailto:wb3167@gmail.com)  
+🔗 LinkedIn: [Weronika Martinsen](https://www.linkedin.com/in/weronikamartinsen)
+
+---

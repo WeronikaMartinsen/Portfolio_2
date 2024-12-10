@@ -35,13 +35,46 @@ main {
   flex: 1;
   height: 100%;
   width: 100%;
-  background-color: antiquewhite;
 }
 
 .footer {
-  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 10px;
   width: 100%;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%); /* Start off-screen on the right */
+  }
+  100% {
+    transform: translateX(-100%); /* End off-screen on the left */
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 1.5s ease-in forwards;
+}
+
+.animate-delay-1000 {
+  animation-delay: 1s;
+}
+
+.animate-delay-1500 {
+  animation-delay: 1.5s;
 }
