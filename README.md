@@ -35,7 +35,7 @@ Here are some of the projects featured on my portfolio:
 
 ## 🖥️ Screenshots
 
-![Portfolio Screenshot](../Portfolio_2/src/images/printscreen.png)
+![Portfolio Screenshot](./Portfolio_2/src/images/printscreen.png)
 
 ## 🤝 Contact Me
 
