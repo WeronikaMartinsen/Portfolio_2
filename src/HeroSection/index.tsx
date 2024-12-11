@@ -35,25 +35,28 @@ const HeroSection: React.FC = () => {
           A passionate Frontend Developer who loves crafting beautiful user
           experiences.
         </p>
-        <div className="mt-6">
-          <a
-            href="../images/Weronika_Martinsen_CV.pdf"
-            download="Weronika_Martinsen_CV.pdf"
-            className="relative px-6 py-3 mx-2 bg-accent text-black rounded-lg overflow-hidden group transform transition-all duration-300 hover:bg-primary hover:text-white hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-2"
-          >
-            {/* Button Background Transition */}
-            <span className="absolute inset-0 w-full h-full bg-accent transform transition-all duration-300 group-hover:bg-primary"></span>
+        <div className="mt-6 flex">
+          <div>
+            <a
+              href="../images/Weronika_Martinsen_CV.pdf"
+              download="Weronika_Martinsen_CV.pdf"
+              className="relative px-6 py-3 mx-2 bg-accent text-black rounded-lg overflow-hidden group transform transition-all duration-300 hover:bg-primary hover:text-white hover:scale-105 hover:shadow-2xl flex items-center justify-center gap-2"
+            >
+              {/* Button Background Transition */}
+              <span className="absolute inset-0 w-full h-full bg-accent transform transition-all duration-300 group-hover:bg-primary"></span>
 
-            {/* Button Content */}
-            <span className="relative z-10 flex items-center gap-2">
-              Download CV
-              <FaDownload className="w-4 h-4" />
-            </span>
-          </a>
-
-          <button className="px-6 py-3 mx-2 border border-accent text-white rounded-lg hover:bg-accent hover:text-black transition-all">
-            Get in Touch
-          </button>
+              {/* Button Content */}
+              <span className="relative z-10 flex items-center gap-2">
+                Download CV
+                <FaDownload className="w-4 h-4" />
+              </span>
+            </a>
+          </div>
+          <div>
+            <button className="px-6 py-3 mx-2 border border-accent text-white rounded-lg hover:bg-accent hover:text-black transition-all">
+              Get in Touch
+            </button>
+          </div>
         </div>
         <p className="mt-8 italic text-gray-400">
           "Code is like humor. When you have to explain it, it’s bad." — Cory
