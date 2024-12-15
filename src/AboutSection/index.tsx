@@ -75,9 +75,11 @@ const AboutSection: React.FC = () => {
             web applications that solve real-world problems.
           </p>
           <p className="leading-relaxed text-gray-200 text-sm md:text-base">
-            In my free time, I enjoy exploring creative design, contributing to
-            open-source projects, and learning new technologies like Next.js and
-            Tailwind CSS.
+            In my free time, I enjoy diving into books, particularly those on
+            psychology, while also exploring diverse genres. I find joy in
+            cooking, as it relaxes and inspires me, and I’m passionate about
+            staying active through training. Traveling is another pursuit that
+            fuels my curiosity and broadens my perspective.
           </p>
         </div>
 
@@ -109,39 +111,43 @@ const AboutSection: React.FC = () => {
               </a>{" "}
               - Featuring frontend experiments and design prototypes.
             </li>
-            <li>
-              <a
-                href="https://github.com/weronikamartinsen/WeatherApp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent"
-              >
-                Weather App
-              </a>{" "}
-              - Built with React and OpenWeather API.
-            </li>
           </ul>
         </div>
 
         {/* Bottom-Right: Education & Skills */}
         <div className="flex flex-col items-end justify-start space-y-6">
           <h4 className="text-xl md:text-2xl font-bold border-b-4 border-accent pb-2">
-            EDUCATION & SKILLS
+            EDUCATION
           </h4>
           <p className="text-sm md:text-base text-gray-300 text-right">
-            <strong>Noroff University College</strong> <br />
-            Bachelor’s in Frontend Development <br />
-            <em>2023–Present</em>
+            <strong>Noroff School of technology and digital media</strong>{" "}
+            <br />
+            Frontend Developer <br />
+            <em>2023-2025</em>
           </p>
           <p className="text-sm md:text-base text-gray-300 text-right">
-            <strong>Stord High School</strong> <br />
-            General Studies <br />
-            <em>Graduated: 2011</em>
+            <strong>Gdansk University of technology</strong> <br />
+            Cartograph - Engineer
+            <br />
+            <em>2011-2015</em>
           </p>
-          <h5 className="text-lg font-bold">Skills</h5>
-          <ul className="list-disc pl-4 space-y-2 text-sm md:text-base text-gray-300 text-right">
-            <li>HTML, CSS, JavaScript, React</li>
-            <li>Tailwind CSS, Next.js, Git</li>
+          <p className="text-sm md:text-base text-gray-300 text-right">
+            <strong>Tczew High School</strong> <br />
+            General Studies <br />
+            <em>2008-2011</em>
+          </p>
+        </div>
+
+        <div className="flex flex-col items-start justify-start space-y-6">
+          <h4 className="text-xl md:text-2xl font-bold border-b-4 border-accent pb-2">
+            SKILLS
+          </h4>
+          <ul className="list-disc pl-4 space-y-2">
+            <li>HTML, CSS, JavaScript</li>
+            <li>TypeScript, React</li>
+            <li>C#, Blazor, MudBlazor</li>
+            <li>Tailwind CSS, Bootstrap</li>
+            <li>Git, Github, DevOps</li>
             <li>Responsive Design & Accessibility</li>
             <li>Figma & UI/UX Prototyping</li>
           </ul>

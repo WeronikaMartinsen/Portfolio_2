@@ -36,21 +36,29 @@ const projects = [
 
 const ProjectList: React.FC = () => {
   return (
-    <div
-      id="projects"
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6"
-    >
-      {projects.map((project, index) => (
-        <ProjectCard
-          key={index}
-          image={project.image}
-          title={project.title}
-          description={project.description}
-          technologies={project.technologies}
-          githubLink={project.githubLink}
-          liveLink={project.liveLink}
-        />
-      ))}
+    <div>
+      <div className="flex justify-center align-middle">
+        <h2 className="text-xl md:text-3xl font-bold text-white text-center mb-4">
+          My Projects
+        </h2>
+      </div>
+
+      <div
+        id="projects"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6"
+      >
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            image={project.image}
+            title={project.title}
+            description={project.description}
+            technologies={project.technologies}
+            githubLink={project.githubLink}
+            liveLink={project.liveLink}
+          />
+        ))}
+      </div>
     </div>
   );
 };
