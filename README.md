@@ -1,10 +1,14 @@
 # 🌟 Weronika Martinsen Portfolio
 
-Welcome to my portfolio! 🚀 I'm a **Frontend Developer** passionate about creating modern, responsive, and user-friendly web applications. This portfolio showcases my skills, projects, and journey in web development.
+Welcome to my portfolio! 🚀 This portfolio includes my 3 last projects.
+
+---
 
 ## 🌐 Live Demo
 
 👉 **[Visit My Portfolio](https://portfolio-martinsen.netlify.app/)**
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -12,6 +16,8 @@ Welcome to my portfolio! 🚀 I'm a **Frontend Developer** passionate about crea
 - **Frameworks & Libraries:** ReactJS, TypeScript, TailwindCSS
 - **Tools:** Git, GitHub, Figma, Adobe XD
 - **Other Skills:** Responsive Design, REST APIs, UI/UX Design
+
+---
 
 ## 📂 Projects
 
@@ -25,6 +31,45 @@ Here are some of the projects featured on my portfolio:
 ### 2. [GitHub Repository](https://github.com/weronikamartinsen)
 
 - A collection of my frontend projects, including responsive layouts, interactive UI, and more.
+
+---
+
+## 🚀 How to Run the Project
+
+Follow these steps to set up and run this project on your local machine:
+
+### 1. Clone the Repository
+
+Clone the project to your local machine using the following command:
+
+```bash
+git clone https://github.com/weronikamartinsen/portfolio.git
+cd portfolio
+```
+
+### 2. Install Dependencies
+
+Make sure you have Node.js installed on your system. Then, run this command to install all required packages:
+
+```bash
+npm install
+```
+
+### 3. Start the Development Server
+
+Start the project in development mode with this command:
+
+```bash
+npm start
+```
+
+### 4. Build for Production
+
+To create an optimized production build, run the following command:
+
+```bash
+npm run build
+```
 
 ## 📈 Highlights
 
